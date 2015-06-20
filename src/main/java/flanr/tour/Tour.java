@@ -8,6 +8,7 @@ import java.util.Date;
 public class Tour {
     private final long id;
     private final String name;
+    private final int description;
     private final int duration;
     private final int length;
     private final Date meetingTime;
@@ -15,9 +16,10 @@ public class Tour {
 
     private final Guide guide;
 
-    public Tour(long id, String name, int duration, int length, Date meetingTime, String imageURL, Guide guide) {
+    public Tour(long id, String name, String description, int duration, int length, Date meetingTime, String imageURL, Guide guide) {
         this.id = id;
         this.name = name;
+        this.description = description;
         this.duration = duration;
         this.length = length;
         this.meetingTime = meetingTime;
@@ -27,6 +29,10 @@ public class Tour {
 
     public String getName() {
         return name;
+    }
+
+    public int getDescription() {
+        return duration;
     }
 
     public int getDuration() {

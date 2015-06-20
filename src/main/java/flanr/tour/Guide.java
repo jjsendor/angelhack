@@ -7,8 +7,8 @@ import flanr.account.User;
  */
 public class Guide extends User {
 
-    public Guide(long id, String username, String password, String name) {
-        super(id, username, password, name);
+    public Guide(long id, String username, String password, String name, String pictureUrl) {
+        super(id, username, password, name, pictureUrl);
     }
 
 }

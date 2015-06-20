@@ -9,12 +9,14 @@ public class User {
     private String username;
     private String name;
     private String password;
+    private String pictureUrl;
 
-    public User(long id, String username, String password, String name) {
+    public User(long id, String username, String password, String name, String pictureUrl) {
         this.id = id;
         this.username = username;
         this.password = password;
         this.name = name;
+        this.pictureUrl = pictureUrl;
     }
 
     public String getName() {
@@ -23,6 +25,10 @@ public class User {
 
     public long getId() {
         return id;
+    }
+
+    public String getPictureUrl() {
+        return pictureUrl;
     }
 
 }
