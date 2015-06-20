@@ -8,7 +8,7 @@ import java.util.Date;
 public class Tour {
     private final long id;
     private final String name;
-    private final int description;
+    private final String description;
     private final int duration;
     private final int length;
     private final Date meetingTime;
