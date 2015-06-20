@@ -32,7 +32,7 @@ public class Tour {
     }
 
     public String getDescription() {
-        return duration;
+        return description;
     }
 
     public int getDuration() {
