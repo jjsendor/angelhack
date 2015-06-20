@@ -31,7 +31,7 @@ public class Tour {
         return name;
     }
 
-    public int getDescription() {
+    public String getDescription() {
         return duration;
     }
 
